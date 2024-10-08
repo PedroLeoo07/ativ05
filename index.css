@@ -1,0 +1,16 @@
+.container1{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+}
+
+header{
+    background-color: blueviolet;
+
+}
+
+.nav1{
+    background-color: aqua;
+    
+}
