@@ -1,16 +1,80 @@
-.container1{
-    background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
     display: flex;
     flex-direction: column;
-    height: 25%;
+    height: 100%; 
+    border: 5px solid black;
 }
 
-header{
-    background-color: blueviolet;
-
+header, nav, section, article, aside, footer {
+    border: 5px solid black; 
+    padding: 10px;
+    color: white;
 }
 
-.nav1{
-    background-color: aqua;
-    
+header, nav, footer {
+    width: 100%;
+}
+
+header {
+    background-color: rgb(4, 4, 165);
+    text-align: center;
+    height: 10%; 
+}
+
+nav {
+    background-color: rgb(32, 252, 252);
+    height: 7%; 
+}
+
+footer {
+    background-color: rgb(60, 60, 250);
+    text-align: center;
+    height: 10%; 
+    border: 5px solid rgb(51, 51, 51);
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 75%; 
+}
+
+section, article {
+    width: 100%;
+    flex-grow: 1; 
+}
+
+section {
+    background-color: rgb(252, 217, 20);
+}
+
+article {
+    background-color: salmon;
+}
+
+aside {
+    background-color: white;
+    color: black;
+    width: 25%; 
+    height: calc(130% - 17% - 10%); 
+    border: 5px solid black;
 }
